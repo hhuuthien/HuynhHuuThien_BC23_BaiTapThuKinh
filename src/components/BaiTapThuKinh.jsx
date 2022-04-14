@@ -9,10 +9,16 @@ export default class BaiTapThuKinh extends Component {
     currentGlasses: data[0],
   };
 
+  changeGlasses = (newGlasses) => {
+    this.setState({
+      currentGlasses: newGlasses,
+    });
+  };
+
   renderGlassesList() {
     // console.log(data);
     return data.map((item, index) => {
-      return <Glasses key={index} glasses={item} />;
+      return <Glasses key={index} glasses={item} changeGlasses={this.changeGlasses} />;
     });
   }
 
