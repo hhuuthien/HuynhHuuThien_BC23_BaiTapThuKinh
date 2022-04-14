@@ -1,5 +1,12 @@
+import BaiTapThuKinh from "./components/BaiTapThuKinh";
+import "./App.css";
+
 function App() {
-  return <div className="app"></div>;
+  return (
+    <div>
+      <BaiTapThuKinh />
+    </div>
+  );
 }
 
 export default App;
