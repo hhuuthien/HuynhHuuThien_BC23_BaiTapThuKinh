@@ -59,3 +59,20 @@
   font-size: 13px;
   margin: 0;
 }
+
+.glassesList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 100px;
+  background-color: white;
+  padding: 50px;
+}
+
+.glasses {
+  display: block;
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
